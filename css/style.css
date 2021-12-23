@@ -1,0 +1,178 @@
+:root{
+    --maincolor:#757575;
+    --secondarycolor:#212121;
+    --accentcolor:#2196F3;
+    --backgroundcolor:#FFFFFF;
+    --footercolor: rgba(255, 255, 255, 0.6);
+    --hovercolor:#188CE8;
+}
+body{font-family:'roboto' ,sans-serif;
+    color: var(--maincolor);}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+h1,
+h2,
+h3{
+    color: var(--secondarycolor);
+    
+}
+.logo{
+    font-family:'Raleway',sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 119%;
+    text-decoration: none;
+    color:var(--secondarycolor);
+   
+}
+.logoweb{
+    color: var(--accentcolor);
+    text-decoration: none;
+}
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    text-decoration: none;
+    color:var(--secondarycolor);
+    
+}
+.studio,
+.portfolio,
+.navigation:hover,
+.navigation:focus{
+    color: var(--accentcolor);
+}
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color:var(--maincolor)
+}
+.contacts:hover,
+.contacts:focus{
+    color:var(--accentcolor);
+}
+.hero{
+    background: #2F303A;
+}
+.main-title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    color: var(--backgroundcolor);
+}
+.second-title{
+    color:var(--secondarycolor)
+}
+.btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 187%;
+
+    color:var(--backgroundcolor);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color:var(--hovercolor);
+}
+.title-list{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 114%;
+}
+.item{
+    
+    font-size: 14px;
+    line-height:171%;
+
+}
+.about-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 117%;
+}
+.person{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 119%;
+}
+.proffesion{
+    color: var(--maincolor);
+    font-size: 16px;
+    line-height: 119%;
+}
+.footer{
+   background: #2F303A;
+}
+.address{
+    font-style: inherit;
+    font-size: 14px;
+    line-height: 171%;
+
+    color:var(--backgroundcolor)
+}
+.contacts-footer{
+    font-size: 14px;
+    line-height: 171%;
+    
+    color: var(--footercolor);
+ }
+ .logofooter{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 119%;
+
+    color: var(--backgroundcolor);
+    text-decoration: none;
+ }
+
+ .button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+
+    color:var(--secondarycolor) ;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+   
+    
+ }
+ .all,
+ .button:focus,
+ .button:hover{
+     color: var(--backgroundcolor);
+     background-color:var(--accentcolor) ;
+ }
+ .list-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height:200%;
+
+ }
+ .list-text{
+    font-size: 16px;
+    line-height: 187%;
+    color:var(--maincolor);
+ }
+
+
+ 
